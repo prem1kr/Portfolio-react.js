@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# portfolio-react.js
+=======
 Portfolio Website - React Application
 This is a Portfolio Website built using React.js. The website is divided into multiple components for better modularity and maintainability. Each section of the website is implemented as a separate React component.
 
@@ -146,7 +149,11 @@ LinkedIn: [Prem Kumar](https://www.linkedin.com/in/prem-kumar-3b38b1290/)
 Screenshots
 ![alt Home](<Screenshot 2025-03-21 222302.png>)
 ![alt Services](<Screenshot 2025-03-21 222321.png>)
-![alt Projects](<Screenshot 2025-03-21 222413.png>)
+![alt Project](<Screenshot 2025-03-21 224333.png>)
+![alt Project](<Screenshot 2025-03-21 224346.png>)
+![alt Project](<Screenshot 2025-03-21 224358.png>)
+![alt Project](<Screenshot 2025-03-21 224407.png>)
+![alt Project](<Screenshot 2025-03-21 224419.png>)
 ![alt About](<Screenshot 2025-03-21 222431.png>)
 ![alt Contact](<Screenshot 2025-03-21 222440.png>)
 ![alt Footer](<Screenshot 2025-03-21 222457.png>)
@@ -154,3 +161,4 @@ Screenshots
 
 This README.md provides a comprehensive overview of the project, its structure, and how to run it. You can customize it further based on your specific requirements.
 
+>>>>>>> b27af54 (Initial commit)
