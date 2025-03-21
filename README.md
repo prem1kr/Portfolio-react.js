@@ -112,7 +112,7 @@ How to Run the Project
 Clone the Repository:
 
 bash
-git clone https://github.com/your-username/portfolio.git
+git clone https://github.com/prem1kr/Portfolio-react.js.git
 cd portfolio
 
 Install Dependencies:
