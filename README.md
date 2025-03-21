@@ -113,15 +113,25 @@ Clone the Repository:
 
 bash
 git clone https://github.com/prem1kr/Portfolio-react.js.git
+
+1.
+
 cd portfolio
 
+2.
+
 Install Dependencies:
-bash
-npm install
-Run the Development Server:
 
 bash
+
+npm install
+
+3.
+Run the Development Server:
+bash
+
 npm start
+
 Open in Browser:
 
 The application will open at http://localhost:3000.
