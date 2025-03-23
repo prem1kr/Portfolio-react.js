@@ -6,7 +6,8 @@ const Services = () => {
     <section id="services">
       <div className="services container">
         <div className="service-top">
-          <h1 className="section-title">Serv<span>i</span>ces</h1>
+          <h1 className="section-title">Ski<span>ll</span>s / Ser<span>vi</span>ces
+          </h1>
           <p>I provide end-to-end Full Stack Development services, including responsive front-end (React.js), robust back-end (Node.js, Express.js), efficient database management (MongoDB), and seamless API integration for scalable web applications.</p>
         </div>
         <div className="service-bottom">
