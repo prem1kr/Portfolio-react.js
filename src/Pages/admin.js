@@ -5,11 +5,10 @@ const Admin = () => {
   const [formData, setFormData] = useState([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState('');
-  const URL = process.env.REACT_APP_API_URL;
   useEffect(() => {
   const fetchData = async () => {
     try {
-      const response = await fetch(`${URL}/api/read`);
+      const response = await fetch('https://backend-for-portfolio-website.onrender.com/api/read');
       if (!response.ok) throw new Error('Failed to fetch form data');
       
       const data = await response.json();
