@@ -11,21 +11,25 @@ import Admin from './Pages/admin.js';
 
 function App() {
   return (
-      <Navbar />
-      <Routes>
-        <Route path="/" element={
-          <>
-            <Home />
-            <Services />
-            <Projects />
-            <About />
-            <Contact />
-            <Footer />
-          </>
-        } />
-        <Route path="/premkumar" element={<Admin />} />
-        <Route path="*" element={<h1>Page Not Found</h1>} />
-      </Routes>
+    <Router>
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={
+            <>
+              <Home />
+              <Services />
+              <Projects />
+              <About />
+              <Contact />
+              <Footer />
+            </>
+          } />
+          <Route path="/premkumar" element={<Admin />} />
+          <Route path="*" element={<h1>Page Not Found</h1>} />
+        </Routes>
+      </>
+    </Router>
   );
 }
 
