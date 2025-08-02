@@ -322,6 +322,7 @@ p {
 }
 #services .service-item p {
 	color: white;
+	font-size: 13.9px;
 	text-align: left;
 }
 /* End Services Section */
@@ -374,6 +375,8 @@ p {
 }
 #projects .project-info p {
 	color: white;
+	font-size: 13.9px;
+	text-align: left;
 
 }
 
@@ -438,6 +441,8 @@ p {
 }
 #about .col-right p {
 	margin-bottom: 20px;
+	font-size: 13.9px;
+	text-align: left;
 }
 #about .col-right .cta {
 	color: black;
