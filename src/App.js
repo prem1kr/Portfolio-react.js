@@ -6,7 +6,7 @@ import Projects from './Pages/Projects';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Routes, Route } from "react-router-dom";
 import Admin from './Pages/admin.js';
 
 function App() {
