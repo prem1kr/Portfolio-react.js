@@ -7,26 +7,27 @@ import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Admin from './Pages/admin.js';
+import Admin from './Pages/Admin';
 
 function App() {
   return (
-    <>
-      <Navbar/>
+    <Router>
+      <Navbar />
       <Routes>
         <Route path="/" element={
           <>
-            <Home/>
-            <Services/>
-            <Projects/>
-            <About/>
-            <Contact/>
-            <Footer/>
+            <Home />
+            <Services />
+            <Projects />
+            <About />
+            <Contact />
+            <Footer />
           </>
         } />
-        <Route path="/premkumar" element={<Admin/>} />
+        <Route path="/premkumar" element={<Admin />} />
+        <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
-    </>
+    </Router>
   );
 }
 
