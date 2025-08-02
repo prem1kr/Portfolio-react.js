@@ -19,10 +19,10 @@ const Projects = () => {
         <div className="project-item">
           <div className="project-info">
             <h1>Project 1
-            <a href="https://github.com/prem1kr/Fitness-Site" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> </a>
+            <a href="https://github.com/prem1kr/Ecommerce-Admin-and-Cashier-Dashboard-page.git" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> </a>
             </h1>
-            <h2>Fitness Website (MERN-STACK)</h2>
-            <p>Fitness Website (MERN Stack) is a full-stack web application designed to help users workouts and set fitness goals. Built using MongoDB, Express.js, React.js, and Node.js, it offers features like user authentication, personalized dashboards, workout plans, progress tracking, and diet recommendations. The backend handles secure user data, APIs, and real-time updates, while the frontend ensures a responsive and interactive user experience.</p>
+            <h2>Ecommerce-Admin-and-Cashier-Dashboard (MERN-STACK)</h2>
+            <p>This is a Full Stack Ecommerce Admin and Cashier Dashboard using the MERN Stack. This platform includes dynamic interfaces for product management, order tracking, inventory control, and sales analytics. The Admin Panel allows for product uploads, price updates, and customer management, while the Cashier Dashboard streamlines order processing and billing. Implemented secure login, role-based access, and real-time data updates for a seamless operational workflow.</p>
           </div>
           <div className="project-img">
             <img src={img1} alt="img" />
@@ -34,11 +34,11 @@ const Projects = () => {
             <h1>
               Project 2 
               <a
-                  href="https://github.com/prem1kr/Hospital-Managment-system" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> 
+                  href="https://github.com/prem1kr/Ai-Chat-Support-Full-Stack-website-.git" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> 
               </a>
               </h1>
-            <h2>Hospital Food Management System (MERN STACK)</h2>
-            <p>Hospital Food Management System (MERN Stack) is a web application designed to streamline meal planning, ordering, and distribution in hospitals. Built using MongoDB, Express.js, React.js, and Node.js, it offers real-time tracking, diet customization, and automated scheduling. Key features include role-based access, patient-specific meal plans, inventory management, and order analytics. It integrates authentication, RESTful APIs, and a responsive UI for seamless user experience. This system enhances efficiency, reduces food waste, and ensures timely meal delivery for patients.</p>
+            <h2>AI intergrate chat support (MERN STACK)</h2>
+            <p>It's a real-time Chat and Video Chat Application using the MERN Stack, enabling users to engage in text-based and video communication. Integrated WebSocket (Socket.io) for live messaging and WebRTC for peer-to-peer video calls. Features include user authentication, chat history persistence, typing indicators, and responsive UI. Ensured seamless connectivity and performance across different devices and browsers.</p>
           </div>
           <div className="project-img">
                 <img src={img2} alt="img" />
