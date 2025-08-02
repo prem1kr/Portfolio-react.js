@@ -6,18 +6,26 @@ import Projects from './Pages/Projects';
 import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Admin from './Pages/admin.js';
 
 function App() {
   return (
     <>
-    <Navbar/>
-    <Home/>
-    <Services/>
-    <Projects/>
-    <About/>
-    <Contact/>
-    <Footer/>
-    
+      <Navbar/>
+      <Routes>
+        <Route path="/" element={
+          <>
+            <Home/>
+            <Services/>
+            <Projects/>
+            <About/>
+            <Contact/>
+            <Footer/>
+          </>
+        } />
+        <Route path="/premkumar" element={<Admin/>} />
+      </Routes>
     </>
   );
 }
