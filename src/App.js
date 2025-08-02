@@ -11,7 +11,6 @@ import Admin from './Pages/admin';
 
 function App() {
   return (
-    <Router>
       <Navbar />
       <Routes>
         <Route path="/" element={
@@ -27,7 +26,6 @@ function App() {
         <Route path="/premkumar" element={<Admin />} />
         <Route path="*" element={<h1>Page Not Found</h1>} />
       </Routes>
-    </Router>
   );
 }
 
