@@ -7,7 +7,7 @@ import Services from './Pages/Services';
 import Contact from './Pages/Contact';
 import Footer from './Pages/Footer';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Admin from './Pages/Admin';
+import Admin from './Pages/admin';
 
 function App() {
   return (
