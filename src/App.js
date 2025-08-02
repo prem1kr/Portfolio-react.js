@@ -11,7 +11,6 @@ import Admin from './Pages/admin.js';
 
 function App() {
   return (
-    <Router>
       <>
         <Navbar />
         <Routes>
@@ -29,7 +28,6 @@ function App() {
           <Route path="*" element={<h1>Page Not Found</h1>} />
         </Routes>
       </>
-    </Router>
   );
 }
 
