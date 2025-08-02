@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import './style.css';
 
 const Contact = () => {
-  const URL = process.env.REACT_APP_API_URL;
 
   const [formData, setFormData] = useState({
     name: '',
@@ -22,7 +21,7 @@ const Contact = () => {
     e.preventDefault();
     setStatus('Sending...');
     try {
-      const response = await fetch(`${URL}/api/form`, {
+      const response = await fetch('https://backend-for-portfolio-website.onrender.com/api/form', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
