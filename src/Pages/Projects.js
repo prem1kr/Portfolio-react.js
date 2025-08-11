@@ -34,11 +34,11 @@ const Projects = () => {
             <h1>
               Project 2 
               <a
-                  href="https://github.com/prem1kr/Ai-Chat-Support-Full-Stack-website-.git" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> 
+                  href="https://github.com/prem1kr/Full-Stack-Ai-integrated-Chat-Support-web-App.git" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> 
               </a>
               </h1>
             <h2>AI intergrate chat support (MERN STACK)</h2>
-            <p>It's a real-time Chat and Video Chat Application using the MERN Stack, enabling users to engage in text-based and video communication. Integrated WebSocket (Socket.io) for live messaging and WebRTC for peer-to-peer video calls. Features include user authentication, chat history persistence, typing indicators, and responsive UI. Ensured seamless connectivity and performance across different devices and browsers.</p>
+            <p>AI Customer Support Chat Platform is a modern, intelligent helpdesk solution built using the MERN stack and powered by Google’s Gemini API, It enables businesses to offer fast, accurate, and human-like responses to customer queries in real time, The platform features a clean, responsive chat interface where users can interact seamlessly across desktop and mobile devices, An integrated admin dashboard allows support teams to monitor active conversations, manage users, and fine-tune AI behavior Conversations are stored securely in MongoDB, enabling analytics, history tracking, and follow-up actions Built with Expressjs and Nodejs on the backend, it ensures high performance and scalability JWT authentication keeps both customer and admin accounts secure.</p>
           </div>
           <div className="project-img">
                 <img src={img2} alt="img" />
