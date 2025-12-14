@@ -59,7 +59,7 @@ The app supports Google login for faster onboarding and a smoother sign‑in exp
 Users can personalize their profile using avatar upload, making the dashboard feel more tailored and engaging.​</p>
           </div>
           <div className="project-img">
-            <img src={img3} alt="img" />
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.dribbble.com%2Fuserupload%2F10286722%2Ffile%2Foriginal-7962a56b257ac246285fdf37eb87c582.jpg%3Fcrop%3D0x0-2880x2160%26resize%3D1600x1200&f=1&nofb=1&ipt=95f043cd4d8c5c7c050f3c15da8ba2ee46eb912a4471d63dbb082155abff4bb0" alt="img" />
           </div>
         </div>
 
