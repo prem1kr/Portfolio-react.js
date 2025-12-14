@@ -52,8 +52,11 @@ const Projects = () => {
             <a href="https://github.com/prem1kr/face-recognization-system" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> </a>
 
             </h1>
-            <h2>Real Time Face Recognization System With Date and Time Stamping (PYTHON)</h2>
-            <p>This system utilizes OpenCV, dlib, and face_recognition libraries for real-time face detection and recognition. It captures and verifies faces from a live camera feed, logging each recognition event with a timestamp using datetime and storing records in a CSV file or database. The system supports multi-user recognition, automatic attendance marking, and image preprocessing for improved accuracy. Integrated with Tkinter for GUI, it provides a user-friendly interface to monitor and manage entries. Ideal for security, attendance tracking, and access control systems.</p>
+            <h2>Personal Finance Manager (Next.js + MongoDB) </h2>
+            <p>This Personal Finance Manager is a full‑stack web app built with Next.js (App Router + API routes) and MongoDB for reliable, scalable data storage.​
+It lets users securely track income, expenses, and overall transactions with authentication to protect personal financial data.​
+The app supports Google login for faster onboarding and a smoother sign‑in experience.​
+Users can personalize their profile using avatar upload, making the dashboard feel more tailored and engaging.​</p>
           </div>
           <div className="project-img">
             <img src={img3} alt="img" />
