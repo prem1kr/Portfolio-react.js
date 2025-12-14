@@ -49,7 +49,7 @@ const Projects = () => {
         <div className="project-item">
           <div className="project-info">
             <h1>Project 3
-            <a href="https://github.com/prem1kr/face-recognization-system" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> </a>
+            <a href="https://github.com/prem1kr/Finance-Tracker-NextJS.git" target="_blank" rel="noopener noreferrer" > <FaGithub size={24} color="red"/> </a>
 
             </h1>
             <h2>Personal Finance Manager (Next.js + MongoDB) </h2>
